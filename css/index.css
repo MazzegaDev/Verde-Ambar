@@ -5,6 +5,7 @@ body{
 .header{
     background-color: #373D20;
     padding: 5px;
+    height: fit-content;
 }
 .titulo-principal{
     color: #EFF1ED;
@@ -12,7 +13,8 @@ body{
 .links{
     position: relative;
     float: right;
-    bottom: 50px;
+    bottom: 55px;
+    right: 55px;
 }
 .conteudo{
     padding: 5px;
@@ -31,48 +33,102 @@ body{
 .produtos{
     float: left;
     position: relative;
-    left: 290px;
+    left: 18%;
     width: 210px;
     height: 309px;
-    padding: 19px;
+    padding: 12px;
     margin: 15px;
     background-color: #BCBD8B;
     border-radius: 19px;
+    font-size: small;
 }
 
 .diferencial{
     clear: both;
 }
 .motivo{
+    
     float: left;
     position: relative;
-    left: 290px;
+    left: 18%;
     width: 210px;
     height: 309px;
-    padding: 19px;
+    padding: 12px;
     margin: 15px;
     background-color: #766153;
     border-radius: 19px;
+    font-size: small;
 }
 .footer{
     background-color: #373D20;
     padding: 5px;
-    height: 55px;
+    height: 25%;
 }
 .historia{
     background-color: #766153;
     border-radius: 26px;
     padding: 15px;
+    margin: 15px;
 }
 a{
     text-decoration: none;
     color: #EFF1ED;
-    margin: 20px;
+    padding: 6px;
+    border-radius: 19px;
+}
+a:hover{
+    padding: 16px;
+    background-color: #BCBD8B;
 }
 .titulo{
     text-align: center;
 }
 p{
-
     font-size: 16px;
 }
+.historia p{
+    font-size: 1.2em;
+    text-align: justify;
+    color: #222;
+}
+
+.produtos h3, .motivos h3{
+    text-align: center;
+    color: #4B3F2A;
+    
+}
+.produtos p, .motivos p{
+    text-align: justify;
+    color: #4B3F2A;
+    
+}
+
+.carrosel{
+    border-radius: 19px;
+    margin: 15px;
+    padding: 5px;
+    clear: both;
+    border: 1px solid red;
+}
+.mais-produtos{
+    position: relative;
+    left: 26%;
+    float: left;
+    width: 210px;
+    height: 309px;
+    background-color: #BCBD8B;
+    border-radius: 19px;
+    margin: 15px;
+    padding: 12px;
+    font-size: small;
+}
+.carrosel::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.carrosel h1{
+    margin: 5px;
+    text-align: center;
+}
+
